@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="holo_blue">#33b5e5</color>
+    <color name="holo_green">#99CC00</color>
+    <color name="holo_red">#FF4444</color>
+    <color name="holo_grey">#88888888</color>
+    <color name="holo_blue_transparent">#9933B5E5</color>
+    <color name="holo_red_transparent">#88FF4444</color>
+    <color name="holo_grey_transparent">#88888888</color>
+
+    <color name="conference_background">#ddd</color>
+</resources>

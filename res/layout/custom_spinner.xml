@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp" >
+    
+     <View
+        android:id="@+id/spinner_item_circle"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/circle"
+        android:layout_alignParentLeft="true" />
+    
+     <TextView
+        android:id="@+id/spinner_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginLeft="5dip"
+        android:textSize="15sp"
+        android:textColor="#0000AA"
+        android:layout_toRightOf="@id/spinner_item_circle" />
+
+</RelativeLayout>
