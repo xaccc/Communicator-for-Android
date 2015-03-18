@@ -27,38 +27,38 @@ Communicator-for-Android is easy to clone and compile.  Read on!
 
 ## Build Instructions
 
+Clone this project to your local filesystem.
+
+```sh
+    % git clone git@github.com:sightcall/Communicator-for-Android.git
+```
+
 These instructions are for Eclipse.
 
 - Create a new workspace.
 
-- Select "File >> Import >> Git >> Projects from Git"
+- Select "File >> Import"
+
+- Then select "Android >> Existing Android Code into Workspace"
   - click the "Next>" button
 
-- Select 'URI'.  Click the "Next>" buton
+- Navigate to the 'Root Directory' where you cloned the code.
 
-- In the URI field enter
-    https://github.com/sightcall/Communicator-for-Android.git
-
-- Click the "Next>" button
+- Press the "Finish" button.
 
 This will import the project to your Eclipse workspace.
 
-Select the file `Communicator/src/com.sightcall.api/Api.java` for editing.
+
+
+Now, select the file `Communicator/src/com.sightcall.api/Api.java` for editing.
 
 Change the following line to match the URL of your Communicator-for-Rails instance.
 
     final String baseurl = "https://sightcall-communicator.herokuapp.com/api";
 
-Now, run the App on an Android device with an Arm7 processor.  (Note:
-you cannot run this app on an emulator!)
+You can Run the App on an Android device with an Arm7 processor.  (Note:
+you cannot run this app on an emulator.)
 
-
-- Clone this repository so you can customize the source code.
-
-```sh
-   % git clone git@github.com:sightcall/Communicator-for-Android.git
-   % cd Communicator-for-Android
-```
 
 
 ## Short Feature Overview
