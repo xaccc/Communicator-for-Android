@@ -33,21 +33,23 @@ Clone this project to your local filesystem.
     % git clone git@github.com:sightcall/Communicator-for-Android.git
 ```
 
-These instructions are for Eclipse.
+These instructions are for Android Studio.
 
-- Create a new workspace.
+- Choose "Open existing Android Studio" project.
 
-- Select "File >> Import"
+<img src="images/androidstudio_openproject.png" width="400px">
 
-- Then select "Android >> Existing Android Code into Workspace"
-  - click the "Next>" button
+- Navigate to the directory created by the Clone command above.
 
-- Navigate to the 'Root Directory' where you cloned the code.
+- Select the "build.gradle" file and press "Choose".
 
-- Press the "Finish" button.
+<img src="images/androidstudio_project_file.png" width="400px">
 
-This will import the project to your Eclipse workspace.
+- In "Import project from Gradle" press "OK".
 
+<img src="images/androidstudio_import_gradle.png" width="400px">
+
+- Android Studio will begin processing your files.
 
 
 Now, select the file `Communicator/src/com.sightcall.api/Api.java` for editing.
@@ -58,6 +60,9 @@ Change the following line to match the URL of your Communicator-for-Rails instan
 
 You can Run the App on an Android device with an Arm7 processor.  (Note:
 you cannot run this app on an emulator.)
+
+
+- Select "Run 'app'" in the Menu, and choose an attached Android Device.
 
 
 
@@ -143,10 +148,10 @@ following four endpoints.  Implement similar endpoints in your own
 web-application if you would like to connect Communicator-for-Android
 to it.
 
-    /api/me        -- check my password and return 
-    /api/token     -- obtain a SightCall authentication token
-    /api/appid     -- retrieve the SightCall App ID of this installation
-    /api/friends   -- get a list of my friends
+    GET /api/me        -- check my password and return 
+    GET /api/token     -- obtain a SightCall authentication token
+    GET /api/appid     -- retrieve the SightCall App ID of this installation
+    GET /api/friends   -- get a list of my friends
 
 
 If you want to learn about the API consumed by
