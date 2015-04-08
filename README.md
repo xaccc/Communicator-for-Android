@@ -17,12 +17,12 @@ Android application.  It shows the following features.
 Communicator-for-Android uses a ReST API to authenticate and to obtain
 its list of users.  You have two options for providing this interface.
 
-1. Run you own instance of "Communicator-for-Rails"
+1. Compile the App as-is and try it out with the default usernames/passwords
+   at our public instance: https://sightcall-communicator.herokuapp.com
+
+2. Run you own instance of "Communicator-for-Rails"
    (https://github.com/sightcall/Communicator).  We recommend getting a
    free [Heroku](http://heroku.com) account to get started.
-
-2. Compile the as-is and try it out with the default usernames/passwords
-   at our public instance: https://sightcall-communicator.herokuapp.com
 
 Communicator-for-Android is easy to clone and compile.  Read on!
 
