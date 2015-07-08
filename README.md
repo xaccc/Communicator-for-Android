@@ -162,19 +162,19 @@ If you want to learn about the API consumed by
 Communicator-for-Android you can explore it using `curl`.  Try these commands to learn about the JSON data returned.
 
 
-    curl -u bob:bobpassword https://thawing-harbor-4536.herokuapp.com/api/me
+    curl -u bob:bobpassword https://sightcall-communicator.herokuapp.com/api/me
 
 Using the username 'bob' with the password 'bobpassword' you should receive your username and UID in return.
 
-    curl -u bob:bobpassword https://thawing-harbor-4536.herokuapp.com/api/friends
+    curl -u bob:bobpassword https://sightcall-communicator.herokuapp.com/api/friends
 
 This should return bob's list of friends.
 
-    curl -u bob:bobpassword https://thawing-harbor-4536.herokuapp.com/api/token
+    curl -u bob:bobpassword https://sightcall-communicator.herokuapp.com/api/token
 
 This should return an authentication token for user 'bob'.
 
-    curl -u bob:bobpassword https://thawing-harbor-4536.herokuapp.com/api/token
+    curl -u bob:bobpassword https://sightcall-communicator.herokuapp.com/api/appid
 
 This should return the AppID of the instance of Communicator-for-Rails.
 
