@@ -18,10 +18,10 @@ Communicator-for-Android uses a ReST API to authenticate and to obtain
 its list of users.  You have two options for providing this interface.
 
 1. Compile the App as-is and try it out with the default usernames/passwords
-   at our public instance: https://sightcall-communicator.herokuapp.com
+   at our public instance: https://sightcall-communicator.herokuapp.com (Not working)
 
 2. Run you own instance of "Communicator-for-Rails"
-   (https://github.com/sightcall/Communicator).  We recommend getting a
+   (https://github.com/fahadgudu/Communicator).  We recommend getting a
    free [Heroku](http://heroku.com) account to get started.
 
 Communicator-for-Android is easy to clone and compile.  Read on!
@@ -34,7 +34,7 @@ Communicator-for-Android is easy to clone and compile.  Read on!
 Clone this project to your local filesystem.
 
 ```sh
-    % git clone git@github.com:sightcall/Communicator-for-Android.git
+    % git clone https://github.com/xaccc/Communicator-for-Android.git
 ```
 
 These instructions are for Android Studio.
